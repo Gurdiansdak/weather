@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Overpass:wght@500&family=PT+Sans&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+.weather{
+    width: 414px;
+    height: 896px;
+    background: linear-gradient(192.05deg, #47BFDF 0%, #4A91FF 100%);
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.maxmin{
+    display: flex;
+    justify-content: center;
+}
+
+.current{
+    text-align: center;
+}
+
+.current h1{
+    font-size: 55px;
+}
+
+.current p{
+    font-size: 20px;
+}
+
+.current h1{
+    margin-top: 10px;
+}
+
+.hours{
+    display: flex;
+    overflow: scroll;
+    margin-top: 40px;
+}
+
+.hour{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.daily{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: auto;
+    margin: 30px auto 0 auto;
+    border: 1px  solid #FFFFFF;
+    border-radius: 15px;
+}
+
+.current select{
+    margin-top: 20px;
+}
+
+
+.days{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
+}
+
+.days div{
+    display: flex;
+    align-items: start;
+}
+.days > div:nth-child(2) {
+    width:150px;
+    display: flex;
+    justify-content: center;
+}
+.days > div:nth-child(1) {
+    width: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
